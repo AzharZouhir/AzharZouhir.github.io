@@ -38,31 +38,81 @@
         .lang-switch a:hover {
             text-decoration: underline;
         }
+        .lang-section {
+            display: none;
+        }
+        .lang-en, .lang-ar {
+            display: block;
+        }
     </style>
 </head>
 <body>
     <div class="container">
         <div class="lang-switch">
-            <a href="?lang=en">English</a> | <a href="?lang=ar">عربي</a>
+            <a href="javascript:void(0);" onclick="switchLang('en')">English</a> | <a href="javascript:void(0);" onclick="switchLang('ar')">عربي</a>
         </div>
-        <h1>Privacy Policy</h1>
-        <p><strong>Effective Date:</strong> 04/02/2025</p>
-        <p>Thank you for using نماذج للوثائق الإدارية جزائرية. Your privacy is important to us, and we are committed to protecting it. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our app.</p>
 
-        <h2>1. No Data Collection</h2>
-        <p>نماذج للوثائق الإدارية جزائرية does not collect, store, or share any personal information, usage data, or any other form of user data. Your activity within the app remains completely private and is not tracked by us or any third parties.</p>
+        <h1 id="privacy-title">Privacy Policy</h1>
+        
+        <!-- English Content -->
+        <div id="en-content" class="lang-section lang-en">
+            <p><strong>Effective Date:</strong> 04/02/2025</p>
+            <p>Thank you for using نماذج للوثائق الإدارية جزائرية. Your privacy is important to us, and we are committed to protecting it. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our app.</p>
 
-        <h2>2. No Government Affiliation</h2>
-        <p>The administrative documents and templates provided within نماذج للوثائق الإدارية جزائرية are solely for informational and educational purposes. They are meant to serve as general examples to help users create similar documents. <strong>We are not affiliated with, endorsed by, or associated with any government entity or official institution.</strong> The use of these templates does not constitute legal or official advice.</p>
+            <h2>1. No Data Collection</h2>
+            <p>نماذج للوثائق الإدارية جزائرية does not collect, store, or share any personal information, usage data, or any other form of user data. Your activity within the app remains completely private and is not tracked by us or any third parties.</p>
 
-        <h2>3. Third-Party Services</h2>
-        <p>Since we do not collect any user data, we do not share any information with third parties. However, if the app includes links to external websites or services, please note that those services may have their own privacy policies, which we do not control.</p>
+            <h2>2. No Government Affiliation</h2>
+            <p>The administrative documents and templates provided within نماذج للوثائق الإدارية جزائرية are solely for informational and educational purposes. They are meant to serve as general examples to help users create similar documents. <strong>We are not affiliated with, endorsed by, or associated with any government entity or official institution.</strong> The use of these templates does not constitute legal or official advice.</p>
 
-        <h2>4. Changes to This Privacy Policy</h2>
-        <p>We may update this Privacy Policy from time to time. Any changes will be posted within the app, and your continued use of the app after modifications indicate your acceptance of the new terms.</p>
+            <h2>3. Third-Party Services</h2>
+            <p>Since we do not collect any user data, we do not share any information with third parties. However, if the app includes links to external websites or services, please note that those services may have their own privacy policies, which we do not control.</p>
 
-        <h2>5. Contact Us</h2>
-        <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at <a href="mailto:azhar.zouhir.team@gmail.com">azhar.zouhir.team@gmail.com</a>.</p>
+            <h2>4. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy from time to time. Any changes will be posted within the app, and your continued use of the app after modifications indicate your acceptance of the new terms.</p>
+
+            <h2>5. Contact Us</h2>
+            <p>If you have any questions or concerns regarding this Privacy Policy, please contact us at <a href="mailto:azhar.zouhir.team@gmail.com">azhar.zouhir.team@gmail.com</a>.</p>
+        </div>
+
+        <!-- Arabic Content -->
+        <div id="ar-content" class="lang-section lang-ar">
+            <p><strong>تاريخ السريان:</strong> 04/02/2025</p>
+            <p>شكرًا لاستخدامك نماذج للوثائق الإدارية جزائرية. خصوصيتك مهمة بالنسبة لنا، ونحن ملتزمون بحمايتها. تشرح سياسة الخصوصية هذه ممارساتنا بشأن جمع واستخدام وكشف المعلومات عندما تستخدم تطبيقنا.</p>
+
+            <h2>1. عدم جمع البيانات</h2>
+            <p>لا يقوم نماذج للوثائق الإدارية جزائرية بجمع أو تخزين أو مشاركة أي معلومات شخصية أو بيانات استخدام أو أي نوع آخر من بيانات المستخدم. نشاطك داخل التطبيق يبقى خاصًا تمامًا ولا يتم تتبعه من قبلنا أو أي أطراف ثالثة.</p>
+
+            <h2>2. عدم وجود ارتباط حكومي</h2>
+            <p>الوثائق الإدارية والنماذج المقدمة ضمن نماذج للوثائق الإدارية جزائرية هي لأغراض إعلامية وتعليمية فقط. وهي تهدف إلى تقديم أمثلة عامة لمساعدة المستخدمين في إنشاء مستندات مماثلة. <strong>نحن غير مرتبطين أو معتمدين من قبل أي كيان حكومي أو مؤسسة رسمية.</strong> استخدام هذه النماذج لا يشكل نصيحة قانونية أو رسمية.</p>
+
+            <h2>3. الخدمات من أطراف ثالثة</h2>
+            <p>نظرًا لأننا لا نقوم بجمع أي بيانات للمستخدمين، فإننا لا نشارك أي معلومات مع أطراف ثالثة. ومع ذلك، إذا كان التطبيق يتضمن روابط إلى مواقع أو خدمات خارجية، يرجى ملاحظة أن هذه الخدمات قد تحتوي على سياسات خصوصية خاصة بها، ونحن لا نتحكم فيها.</p>
+
+            <h2>4. التغييرات في سياسة الخصوصية</h2>
+            <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم نشر أي تغييرات داخل التطبيق، واستخدامك المستمر للتطبيق بعد التعديلات يعني قبولك للشروط الجديدة.</p>
+
+            <h2>5. تواصل معنا</h2>
+            <p>إذا كان لديك أي أسئلة أو استفسارات بشأن سياسة الخصوصية هذه، يرجى الاتصال بنا عبر <a href="mailto:azhar.zouhir.team@gmail.com">azhar.zouhir.team@gmail.com</a>.</p>
+        </div>
     </div>
+
+    <script>
+        // Function to switch between languages
+        function switchLang(language) {
+            if (language === 'en') {
+                document.getElementById('en-content').style.display = 'block';
+                document.getElementById('ar-content').style.display = 'none';
+                document.querySelector('html').lang = 'en';
+            } else if (language === 'ar') {
+                document.getElementById('ar-content').style.display = 'block';
+                document.getElementById('en-content').style.display = 'none';
+                document.querySelector('html').lang = 'ar';
+            }
+        }
+
+        // Set the default language to English
+        switchLang('en');
+    </script>
 </body>
 </html>

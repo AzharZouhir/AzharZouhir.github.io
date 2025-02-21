@@ -4,52 +4,112 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Privacy Policy</title>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
     <style>
         body {
-            font-family: Arial, sans-serif;
-            line-height: 1.6;
-            margin: 40px;
-            background-color: #f4f4f4;
-            color: #333;
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.8;
+            margin: 0;
+            background-color: #f8f9fa;
+            color: #2c3e50;
         }
         .container {
-            max-width: 800px;
-            margin: auto;
-            background: #fff;
-            padding: 20px;
-            border-radius: 8px;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            max-width: 900px;
+            margin: 20px auto;
+            background: #ffffff;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
         }
         h1 {
-            color: #007BFF;
+            color: #3498db;
+            font-size: 2.5em;
+            margin-bottom: 30px;
+            font-weight: 500;
+        }
+        h2 {
+            color: #2980b9;
+            font-size: 1.8em;
+            margin-top: 30px;
+            font-weight: 500;
         }
         p {
-            margin: 10px 0;
+            margin: 15px 0;
+            font-size: 1.1em;
         }
         .lang-switch {
             text-align: right;
-            margin-bottom: 20px;
+            margin-bottom: 30px;
+            padding: 10px;
+            background: #f8f9fa;
+            border-radius: 8px;
         }
         .lang-switch a {
-            margin-left: 10px;
-            color: #007BFF;
+            padding: 8px 15px;
+            color: #3498db;
             text-decoration: none;
+            border-radius: 6px;
+            transition: all 0.3s ease;
         }
         .lang-switch a:hover {
-            text-decoration: underline;
+            background: #3498db;
+            color: white;
         }
         .lang-section {
             display: none;
+            animation: fadeIn 0.5s ease;
         }
         .lang-en, .lang-ar {
             display: block;
         }
+        a {
+            color: #3498db;
+            text-decoration: none;
+            transition: color 0.3s ease;
+        }
+        a:hover {
+            color: #2980b9;
+        }
+        .admob-container {
+            margin: 20px 0;
+            text-align: center;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+        }
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+        @media (max-width: 768px) {
+            .container {
+                margin: 10px;
+                padding: 20px;
+            }
+            h1 {
+                font-size: 2em;
+            }
+            h2 {
+                font-size: 1.5em;
+            }
+        }
     </style>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-YOUR_PUBLISHER_ID"></script>
 </head>
 <body>
     <div class="container">
         <div class="lang-switch">
             <a href="javascript:void(0);" onclick="switchLang('en')">English</a> | <a href="javascript:void(0);" onclick="switchLang('ar')">عربي</a>
+        </div>
+
+        <div class="admob-container">
+            <!-- AdMob Banner Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
         </div>
 
         <h1 id="privacy-title">Privacy Policy</h1>
@@ -59,14 +119,22 @@
             <p><strong>Effective Date:</strong> 04/02/2025</p>
             <p>Thank you for using نماذج للوثائق الإدارية جزائرية. Your privacy is important to us, and we are committed to protecting it. This Privacy Policy explains our practices regarding the collection, use, and disclosure of information when you use our app.</p>
 
-            <h2>1. No Data Collection</h2>
-            <p>نماذج للوثائق الإدارية جزائرية does not collect, store, or share any personal information, usage data, or any other form of user data. Your activity within the app remains completely private and is not tracked by us or any third parties.</p>
+            <h2>1. Data Collection</h2>
+            <p>نماذج للوثائق الإدارية جزائرية uses Google AdMob for advertising purposes. AdMob may collect and process certain data about you, including:</p>
+            <ul>
+                <li>Device information (such as device ID, model, and operating system)</li>
+                <li>IP address</li>
+                <li>Advertising ID</li>
+                <li>General location information</li>
+                <li>App usage data for advertising purposes</li>
+            </ul>
+            <p>This data collection is managed by Google AdMob and is subject to Google's Privacy Policy. Besides AdMob's data collection, our app does not collect, store, or share any additional personal information, usage data, or any other form of user data.</p>
 
             <h2>2. No Government Affiliation</h2>
             <p>The administrative documents and templates provided within نماذج للوثائق الإدارية جزائرية are solely for informational and educational purposes. They are meant to serve as general examples to help users create similar documents. <strong>We are not affiliated with, endorsed by, or associated with any government entity or official institution.</strong> The use of these templates does not constitute legal or official advice.</p>
 
             <h2>3. Third-Party Services</h2>
-            <p>Since we do not collect any user data, we do not share any information with third parties. However, if the app includes links to external websites or services, please note that those services may have their own privacy policies, which we do not control.</p>
+            <p>Our app integrates Google AdMob for advertising purposes. AdMob's data collection and processing practices are governed by Google's Privacy Policy. For other external links or services within the app, please note that those services may have their own privacy policies, which we do not control.</p>
 
             <h2>4. Changes to This Privacy Policy</h2>
             <p>We may update this Privacy Policy from time to time. Any changes will be posted within the app, and your continued use of the app after modifications indicate your acceptance of the new terms.</p>
@@ -76,18 +144,26 @@
         </div>
 
         <!-- Arabic Content -->
-        <div id="ar-content" class="lang-section lang-ar">
+        <div id="ar-content" class="lang-section lang-ar" dir="rtl">
             <p><strong>تاريخ السريان:</strong> 04/02/2025</p>
             <p>شكرًا لاستخدامك نماذج للوثائق الإدارية جزائرية. خصوصيتك مهمة بالنسبة لنا، ونحن ملتزمون بحمايتها. تشرح سياسة الخصوصية هذه ممارساتنا بشأن جمع واستخدام وكشف المعلومات عندما تستخدم تطبيقنا.</p>
 
-            <h2>1. عدم جمع البيانات</h2>
-            <p>لا يقوم نماذج للوثائق الإدارية جزائرية بجمع أو تخزين أو مشاركة أي معلومات شخصية أو بيانات استخدام أو أي نوع آخر من بيانات المستخدم. نشاطك داخل التطبيق يبقى خاصًا تمامًا ولا يتم تتبعه من قبلنا أو أي أطراف ثالثة.</p>
+            <h2>1. جمع البيانات</h2>
+            <p>يستخدم تطبيق نماذج للوثائق الإدارية جزائرية خدمة Google AdMob للإعلانات. قد تقوم AdMob بجمع ومعالجة بعض البيانات عنك، بما في ذلك:</p>
+            <ul>
+                <li>معلومات الجهاز (مثل معرف الجهاز والطراز ونظام التشغيل)</li>
+                <li>عنوان IP</li>
+                <li>معرف الإعلانات</li>
+                <li>معلومات الموقع العامة</li>
+                <li>بيانات استخدام التطبيق لأغراض الإعلانات</li>
+            </ul>
+            <p>تتم إدارة جمع البيانات هذه بواسطة Google AdMob وتخضع لسياسة خصوصية Google. بخلاف جمع بيانات AdMob، لا يقوم تطبيقنا بجمع أو تخزين أو مشاركة أي معلومات شخصية إضافية أو بيانات استخدام أو أي شكل آخر من بيانات المستخدم.</p>
 
             <h2>2. عدم وجود ارتباط حكومي</h2>
             <p>الوثائق الإدارية والنماذج المقدمة ضمن نماذج للوثائق الإدارية جزائرية هي لأغراض إعلامية وتعليمية فقط. وهي تهدف إلى تقديم أمثلة عامة لمساعدة المستخدمين في إنشاء مستندات مماثلة. <strong>نحن غير مرتبطين أو معتمدين من قبل أي كيان حكومي أو مؤسسة رسمية.</strong> استخدام هذه النماذج لا يشكل نصيحة قانونية أو رسمية.</p>
 
             <h2>3. الخدمات من أطراف ثالثة</h2>
-            <p>نظرًا لأننا لا نقوم بجمع أي بيانات للمستخدمين، فإننا لا نشارك أي معلومات مع أطراف ثالثة. ومع ذلك، إذا كان التطبيق يتضمن روابط إلى مواقع أو خدمات خارجية، يرجى ملاحظة أن هذه الخدمات قد تحتوي على سياسات خصوصية خاصة بها، ونحن لا نتحكم فيها.</p>
+            <p>يدمج تطبيقنا خدمة Google AdMob لأغراض الإعلانات. تخضع ممارسات جمع ومعالجة البيانات الخاصة بـ AdMob لسياسة خصوصية Google. بالنسبة للروابط أو الخدمات الخارجية الأخرى داخل التطبيق، يرجى ملاحظة أن هذه الخدمات قد تحتوي على سياسات خصوصية خاصة بها، والتي لا نتحكم فيها.</p>
 
             <h2>4. التغييرات في سياسة الخصوصية</h2>
             <p>قد نقوم بتحديث سياسة الخصوصية هذه من وقت لآخر. سيتم نشر أي تغييرات داخل التطبيق، واستخدامك المستمر للتطبيق بعد التعديلات يعني قبولك للشروط الجديدة.</p>
@@ -95,21 +171,39 @@
             <h2>5. تواصل معنا</h2>
             <p>إذا كان لديك أي أسئلة أو استفسارات بشأن سياسة الخصوصية هذه، يرجى الاتصال بنا عبر <a href="mailto:azhar.zouhir.team@gmail.com">azhar.zouhir.team@gmail.com</a>.</p>
         </div>
+
+        <div class="admob-container">
+            <!-- AdMob Banner Ad -->
+            <ins class="adsbygoogle"
+                 style="display:block"
+                 data-ad-client="ca-pub-YOUR_PUBLISHER_ID"
+                 data-ad-slot="YOUR_AD_SLOT_ID"
+                 data-ad-format="auto"
+                 data-full-width-responsive="true"></ins>
+        </div>
     </div>
 
     <script>
-        // Function to switch between languages
         function switchLang(language) {
+            const enContent = document.getElementById('en-content');
+            const arContent = document.getElementById('ar-content');
+            const htmlElement = document.querySelector('html');
+
             if (language === 'en') {
-                document.getElementById('en-content').style.display = 'block';
-                document.getElementById('ar-content').style.display = 'none';
-                document.querySelector('html').lang = 'en';
+                enContent.style.display = 'block';
+                arContent.style.display = 'none';
+                htmlElement.lang = 'en';
+                htmlElement.dir = 'ltr';
             } else if (language === 'ar') {
-                document.getElementById('ar-content').style.display = 'block';
-                document.getElementById('en-content').style.display = 'none';
-                document.querySelector('html').lang = 'ar';
+                arContent.style.display = 'block';
+                enContent.style.display = 'none';
+                htmlElement.lang = 'ar';
+                htmlElement.dir = 'rtl';
             }
         }
+
+        // Initialize AdMob ads
+        (adsbygoogle = window.adsbygoogle || []).push({});
 
         // Set the default language to English
         switchLang('en');

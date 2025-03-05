@@ -1,0 +1,16 @@
+  [
+    {
+      "id": "1",
+      "title": "Sample Advertisement",
+      "description": "This is a sample advertisement description",
+      "imageUrl": "https://example.com/image.jpg",
+      "url": "https://example.com"
+    },
+    {
+      "id": "2",
+      "title": "Another Advertisement",
+      "description": "Description for another advertisement",
+      "imageUrl": "https://example.com/another-image.jpg",
+      "url": "https://example.com/ad2"
+    }
+  ]

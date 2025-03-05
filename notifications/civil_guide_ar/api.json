@@ -1,16 +1,9 @@
   [
     {
       "id": "1",
-      "title": "Sample Advertisement",
-      "description": "This is a sample advertisement description",
-      "imageUrl": "https://example.com/image.jpg",
-      "url": "https://example.com"
-    },
-    {
-      "id": "2",
-      "title": "Another Advertisement",
-      "description": "Description for another advertisement",
-      "imageUrl": "https://example.com/another-image.jpg",
-      "url": "https://example.com/ad2"
+      "title": "دليل المهندس المدني",
+      "description": " تطبيق المهندس المدني – أدوات، حسابات، ومراجع هندسية",
+      "imageUrl": 'https://raw.githubusercontent.com/AzharZouhir/AzharZouhir.github.io/main/notifications/civil_guide_ar/icon.png',
+      "url": "https://play.google.com/store/apps/details?id=azhar.zouhir.civil.engineering.guide"
     }
   ]
